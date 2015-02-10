@@ -1,0 +1,6 @@
+import sys
+import os
+
+def List(dir):
+  filenames = os.listdir(dir)
+  print filenames
